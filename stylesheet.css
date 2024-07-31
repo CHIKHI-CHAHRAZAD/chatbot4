@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Freeman&family=Handlee&family=Jaini+Purva&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('assets/blue.jpg');
+}
+
+h1 {
+    color: rgb(5, 5, 120);
+    text-align: center;
+}
+
+p {
+    color: rgb(249, 248, 250);
+    text-align: center;
+}
+
+.logo {
+    position: fixed;
+    top: 20px; 
+    left: 20px; 
+}
+
+/* index styles  */
+form#formulaire_utilisateur input[type="text"] {
+    width: 190px; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #e6e4e4;
+}
+
+.clickable {
+    background-color: rgb(5, 5, 120);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* login styles */
+input[type="email"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: rgb(5, 5, 120);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* chat style */
+.messages {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.user-message {
+    text-align: left;
+    color: black;
+    background-color: #f2f2f2;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bot-message {
+    text-align: left;
+    color: white;
+    background-color: rgb(5, 5, 120);
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.input-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    color: lightgray;
+}
+.slogan{
+    font-family: "Chakra Petch";
+}
+ul li a {
+    font-family: 'Chakra Petch', sans-serif; 
+    font-size: 1.5em;
+    text-decoration: none; 
+    color: white;
+}
+/*questions list */
+.questions-list {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 10;
+    width: 100%;
+}
+
+.question-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.question-item:hover {
+    background-color: #f0f0f0;
+}
